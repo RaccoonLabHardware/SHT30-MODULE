@@ -231,14 +231,22 @@ DocumentPath=Project Outputs\Pick Place\Pick Place for PCB.txt
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=doc\view-bottom.png
+DocumentPath=Project Outputs\WireListNetlist\SHT30-MODULE.NET
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=doc\view-top.png
+DocumentPath=doc\SHT30-MODULE.step
 DItemRevisionGUID=
 
 [GeneratedDocument25]
+DocumentPath=doc\view-bottom.png
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=doc\view-top.png
+DItemRevisionGUID=
+
+[GeneratedDocument27]
 DocumentPath=doc\view.png
 DItemRevisionGUID=
 

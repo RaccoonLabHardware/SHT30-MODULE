@@ -1,0 +1,53 @@
+Wire List
+
+<<< Component List >>>
+GCM155R71H104KE02D              C1             CAPC1005X55N
+GCM155R71H104KE02D              C2             CAPC1005X55N
+GCM155R71H104KE02D              C3             CAPC1005X55N
+SM04B-GHS-TB(LF)(SN)-           I?             JST_SM04B-GHS-TB(LF)(SN)-
+RC0402FR-074K7L                 R1             RESC1005X40N
+RC0402FR-074K7L                 R2             RESC1005X40N
+SPX3819M5-L-3-3/TR              U1             *SOT95P280X145-5N
+SHT30-DIS-B10KS                 U2             XDCR_SHT30-DIS-B10KS
+
+<<< Wire List >>>
+
+  NODE  REFERENCE  PIN #   PIN NAME       PIN TYPE    PART VALUE
+
+[00008] SDA
+        I?         3       3              PASSIVE     SM04B-GHS-TB(LF)(SN)-
+        R1         1       1              PASSIVE     RC0402FR-074K7L
+        U2         1       SDA            I/O         SHT30-DIS-B10KS
+
+[00007] SCL
+        I?         2       2              PASSIVE     SM04B-GHS-TB(LF)(SN)-
+        R2         1       1              PASSIVE     RC0402FR-074K7L
+        U2         4       SCL            I/O         SHT30-DIS-B10KS
+
+[00003] GND
+        C1         1       1              PASSIVE     GCM155R71H104KE02D
+        C2         1       1              PASSIVE     GCM155R71H104KE02D
+        C3         1       1              PASSIVE     GCM155R71H104KE02D
+        I?         4       4              PASSIVE     SM04B-GHS-TB(LF)(SN)-
+        I?         SH1     SHIELD         POWER       SM04B-GHS-TB(LF)(SN)-
+        I?         SH2     SHIELD         POWER       SM04B-GHS-TB(LF)(SN)-
+        U1         2       GND            PASSIVE     SPX3819M5-L-3-3/TR
+        U2         2       ADDR           INPUT       SHT30-DIS-B10KS
+        U2         7       R              PASSIVE     SHT30-DIS-B10KS
+        U2         8       VSS            POWER       SHT30-DIS-B10KS
+        U2         9       EXP            PASSIVE     SHT30-DIS-B10KS
+
+[00002] 5V
+        C1         2       2              PASSIVE     GCM155R71H104KE02D
+        I?         1       1              PASSIVE     SM04B-GHS-TB(LF)(SN)-
+        U1         1       VIN            POWER       SPX3819M5-L-3-3/TR
+        U1         3       EN             POWER       SPX3819M5-L-3-3/TR
+
+[00001] 3.3
+        C2         2       2              PASSIVE     GCM155R71H104KE02D
+        C3         2       2              PASSIVE     GCM155R71H104KE02D
+        R1         2       2              PASSIVE     RC0402FR-074K7L
+        R2         2       2              PASSIVE     RC0402FR-074K7L
+        U1         5       VOUT           POWER       SPX3819M5-L-3-3/TR
+        U2         5       VDD            POWER       SHT30-DIS-B10KS
+
