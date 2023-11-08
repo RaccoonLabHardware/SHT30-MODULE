@@ -1,4 +1,4 @@
-# example-name v3.0.0 hardware 
+# SHT30-MODULE v1.0.0 hardware 
 
 | View | Top | Bottom |
 | ---- | --- | ------ |
@@ -17,23 +17,14 @@ The node has connectors which are described in the table below.
 
 | N | Connector | Description |
 | - | - | - |
-| 1 | DEBUG? |  |
-| 2 | SWD1 |  |
+| 1 | I? |  |
 
 [Here](https://docs.raccoonlab.co/guide/wires/) you can find manufacturer part number of connectors it self and its mates.
 
 ## Pin configuration and functions
 
-| Pin N | DEBUG? | Pin N | SWD1 |
-| ----- | ---------------- | ----- | ---------------- |
-| 1 | 3.3 | 1 | GND |
-| 2 | DEBUG_TX | 2 | SWLK |
-| 3 | DEBUG_RX | 3 | SWDIO |
-| 4 | SWDIO | 4 | 3.3 |
-| 5 | SWCLK | | |
-| 6 | GND | | |
-| S1 | GND | | |
-| S2 | GND |
+| Pin N | I? |
+| ----- | ---------------- |
 
 
 Here you can see all connections of MCU.
@@ -76,7 +67,7 @@ Scheme is shown on the picture below. CAN model can be provided via email reques
 |       | Width, mm | Length, mm | Height, mm |
 | ----- | --------- | ---------- | ---------- |
 |Outline|      18.2 |       18.9 |        6.0 |
-|PCB    |     15.97 |      18.85 |        2.0 |
+|PCB    |      6.92 |        9.0 |        1.0 |
 
 Total weight of device less than 50 g.
 
@@ -117,22 +108,22 @@ Device is designed to operate from an input voltage supply range between 4.5 V a
 - Break-away rail: Yes
 - Instructions:
 ~~~
-Final size is larger ( 18.2 x 18.9 mm ) than board it self ( 15.97 x 18.85 mm), 
+Final size is larger ( 18.2 x 18.9 mm ) than board it self ( 6.92 x 9.0 mm), 
 take a look at the picure in attachements. 
 Panel should be designed to be able to install PWM1, PWM2 while assembly.
 ~~~
 - Route Process: Panel as PCBWay prefer
 - X-out Allowance in Panel:  Accept
 
-- Size (single): 15.97 x 18.85 mm
+- Size (single): 6.92 x 9.0 mm
 - Quantity (single): 200
-- Layers: 4 -   ['L1', 'L2', 'L3', 'L4'] check [PCBway layer stack](https://www.pcbway.com/multi-layer-laminated-structure.html)
+- Layers: 2 -   ['L1', 'L4'] check [PCBway layer stack](https://www.pcbway.com/multi-layer-laminated-structure.html)
 
 - Material: FR-4
 - FR4-TG: TG 150-160
-- Thickness: 2.0
-- Min Track/Spacing: 5/5mil (0.127 mm)
-- Min Hole Size: 0.25 mm
+- Thickness: 1.0
+- Min Track/Spacing: 7/7mil (0.17 mm)
+- Min Hole Size: 0.3 mm
 - Solder Mask: Black
 - Silkscreen: White
 - Edge connector: No
@@ -142,7 +133,7 @@ Panel should be designed to be able to install PWM1, PWM2 while assembly.
 - Finished Copper: 1 oz Cu
 - Other Special request:
 ~~~
-Final size is larger ( 18.2 x 18.9 mm ) than board it self ( 15.97 x 18.85 mm )
+Final size is larger ( 18.2 x 18.9 mm ) than board it self ( 6.92 x 9.0 mm )
 ~~~
 
 ### Assembly Service
